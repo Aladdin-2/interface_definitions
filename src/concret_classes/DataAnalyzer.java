@@ -4,12 +4,12 @@ import interfacees.DataProcessor;
 
 public class DataAnalyzer implements DataProcessor {
     @Override
-    public void processData(String data) {
-        System.out.println("Processing data: " + data);
+    public void execute() {
+        System.out.println("Executing Data analyzer...");
     }
 
     @Override
-    public void execute() {
-        System.out.println("Executing Data analyzer...");
+    public void processData(String data) {
+        System.out.println("Processing data: " + data);
     }
 }

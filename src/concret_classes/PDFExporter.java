@@ -4,12 +4,12 @@ import interfacees.Exporter;
 
 public class PDFExporter implements Exporter {
     @Override
-    public void export(String format) {
-        System.out.println("Exporting data in format: " + format);
+    public void execute() {
+        System.out.println("Executing Exporter...");
     }
 
     @Override
-    public void execute() {
-        System.out.println("Executing Exporter...");
+    public void export(String format) {
+        System.out.println("Exporting data in format: " + format);
     }
 }
